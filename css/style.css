@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #CEFF1A;
+	color: var(--chartreuse, #CEFF1A);
 }
 ul, ol {
 	list-style: none;
@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #CEFF1A;
+	background: var(--chartreuse, #CEFF1A);
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -119,13 +119,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #CEFF1A;
+	color: var(--chartreuse, #CEFF1A);
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #CEFF1A;
+	color: var(--chartreuse, #CEFF1A);
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -159,8 +159,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #CEFF1A;
-	border-color: #CEFF1A;
+	background-color: var(--chartreuse, #CEFF1A);
+	border-color: var(--chartreuse, #CEFF1A);
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -174,7 +174,7 @@ hr {
 	text-align: center;
 	color: #fff;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #CEFF1A;
+	background-color: var(--chartreuse, #CEFF1A);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -204,7 +204,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #CEFF1A;
+	background: var(--chartreuse, #CEFF1A);
 }
 #skills h2 {
 	color: #fff;
@@ -270,7 +270,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #CEFF1A;
+	background: var(--chartreuse, #CEFF1A);
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -382,7 +382,7 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #CEFF1A;
+	background: var(--chartreuse, #CEFF1A);
 }
 #achievements h2 {
 	color: #fff;
@@ -512,7 +512,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #CEFF1A;
+	background: var(--chartreuse, #CEFF1A);
 }
 #contact h2 {
 	color: #fff;
@@ -629,7 +629,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #CEFF1A;
+	color: var(--chartreuse, #CEFF1A);
 }
 
 /* Media Queries */
