@@ -7,21 +7,27 @@
 }
 
 .portfolio-items {
-    background-color: green;
+    /* background-color: green; */
     margin: 0 1rem;
 }
 
 .portfolio-item {
-    background-color: red;
+    /* background-color: red; */
     /* width: 100%; */
-}
-
-.hover-bg .hover-item {
-    /* height: auto; */
 }
 
 .project-name {
     padding: 1rem;
     background-color: pink;
     text-align: center;
+    height: 100%;
+}
+
+.hover-bg {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* background-color: yellow; */
+    height: auto;
+    overflow: hidden;
 }
