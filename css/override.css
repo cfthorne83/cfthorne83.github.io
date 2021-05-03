@@ -1,3 +1,15 @@
 :root {
     --chartreuse: var(--chartreuse);
 }
+
+.devicon {
+    border: 2px solid green;
+}
+
+.skill {
+    border: 2px solid black;
+}
+
+h4 {
+    border: 2px solid hotpink;
+}
