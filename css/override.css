@@ -5,3 +5,16 @@
 .devicon {
     font-size: 4rem;
 }
+
+.portfolio-items {
+    background-color: green;
+    margin: 0 1rem;
+}
+
+.portfolio-item {
+    background-color: red;
+    /* width: 100%; */
+}
+
+.portfolio-con {
+}
