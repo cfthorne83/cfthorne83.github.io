@@ -16,5 +16,12 @@
     /* width: 100%; */
 }
 
-.portfolio-con {
+.hover-bg .hover-item {
+    /* height: auto; */
+}
+
+.project-name {
+    padding: 1rem;
+    background-color: pink;
+    text-align: center;
 }
