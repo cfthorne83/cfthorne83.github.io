@@ -260,30 +260,38 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3>Leave me a message</h3>
+
       <form 
         action="https://formspree.io/f/mrgreyop"
         method="POST" name="sentMessage" id="contactForm" novalidate>
+
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input name="name" type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <input name="name-entry" type="text" id="name" class="form-control" placeholder="Name" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
+
           <div class="col-md-6">
             <div class="form-group">
-              <input name="email" type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <input name="_replyto" type="email" id="email" class="form-control" placeholder="Email" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
         </div>
+
         <div class="form-group">
           <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
           <p class="help-block text-danger"></p>
         </div>
+
         <div id="success"></div>
         <button type="submit" class="btn btn-default">Send Message</button>
+
       </form>
+      
+        <!-- your other form fields go here -->
       <div class="social">
         <ul>
           <li><a href="#"><i class="fa fa-github"></i></a></li>
@@ -291,6 +299,7 @@
           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
         </ul>
       </div>
+      
     </div>
   </div>
 </div>
