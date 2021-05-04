@@ -48,9 +48,9 @@ body {
 
 .intro {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
-    background: url("/assets/scott-webb-nUvR7e3cUGk-unsplash.jpg") fixed;
-    background-size: contain;
-    /* background-size: cover;  */
+    background: url("/assets/scott-webb-wqh7V-nzhYo-unsplash.jpg") fixed;
+    /* background-size: contain; */
+    background-size: cover; 
     color: black;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 #about {
-    background: url("/assets/IMG_5268.jpg") fixed;
+    background: url("/assets/favs/IMG_5243.jpg");
     background-color: black;
 }
 
