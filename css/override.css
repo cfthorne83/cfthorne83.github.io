@@ -38,16 +38,25 @@ body {
 }
 /* .intro-con-con {
     background-color: var(--chartreuse);
-    background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
-    background-size: cover;
     
 }
 .intro-con {
     background-color: var(--chartreuse);
     color: rgb(39, 39, 39);
-    background: url("/assets/IMG_5255.jpg") no-repeat center fixed;
     background-size: cover;
 } */
+
+.intro {
+    /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
+    background: url("/assets/psych1.jpg") fixed;
+    background-size: contain;
+    background-size: cover; 
+    color: black;
+}
+
+.intro-inner {
+    /* background: url("/assets/daniel-olah-pCcGpVsOHoo-unsplash.jpg") no-repeat center fixed; */
+}
 
 #about {
     background: url("/assets/IMG_5268.jpg") fixed;
