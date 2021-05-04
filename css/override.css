@@ -48,9 +48,9 @@ body {
 
 .intro {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
-    background: url("/assets/scott-webb-wqh7V-nzhYo-unsplash.jpg") fixed;
+    background: url("/assets/favs/drip7.jpg");
     /* background-size: contain; */
-    background-size: cover; 
+    /* background-size: 25%;  */
     color: black;
 }
 
