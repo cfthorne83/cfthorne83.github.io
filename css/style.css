@@ -173,7 +173,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	/* background: url(/assets/IMG_5275.png); */
 	background-color: var(--chartreuse, #CEFF1A);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

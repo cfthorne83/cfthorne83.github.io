@@ -1,5 +1,10 @@
 :root {
-    --chartreuse: var(--chartreuse);
+    --chartreuse: #ccff00;
+
+}
+
+body {
+    overflow: hidden;
 }
 
 .devicon {
@@ -31,7 +36,26 @@
     height: auto;
     overflow: hidden;
 }
+/* .intro-con-con {
+    background-color: var(--chartreuse);
+    background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.intro-con {
+    background-color: var(--chartreuse);
+    color: rgb(39, 39, 39);
+    background: url("/assets/IMG_5255.jpg") no-repeat center fixed;
+    background-size: cover;
+} */
 
-.gooble {
-    color: white;
+#about {
+    background: url("/assets/IMG_5268.jpg") fixed;
+    background-color: black;
+}
+
+#skills {
+    background: url("/assets/IMG_5268.jpg");
+    /* background-color: black; */
+    background-size: cover;
 }
