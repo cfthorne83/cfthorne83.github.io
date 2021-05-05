@@ -50,11 +50,13 @@ body {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
     filter: grayscale(100%); */
 
+    background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed;
     background: url("/assets/b&w/500_F_364762268_QUJiC2Cy9sRyoK9LxC96gKwl8AkL8oFO.jpeg") fixed;
+    background: url("/assets/b&w/IMG_5268.jpg") fixed;
 
     /* background-size: contain; */
     /* background-size: cover;  */
-    /* background-size: 50%;  */
+    background-size: 10%; 
     /* background-color: black; */
     color:  white;
 }
@@ -75,7 +77,7 @@ body {
 }
 
 .intro-name {
-    background-color: rgb(0, 218, 218);
+    background-color: rgb(0, 0, 0);
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
