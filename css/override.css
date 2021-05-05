@@ -50,9 +50,10 @@ body {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
     background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfd.jpg") fixed;
     /* background-size: contain; */
-    background-size: cover; 
+    /* background-size: cover;  */
     /* background-size: 25%;  */
-    color: rgb(187, 255, 0);
+    /* background-color: black; */
+    color:  white;
 }
 
 .intro-inner {
@@ -68,4 +69,13 @@ body {
     background: url("/assets/favs/nick-fewings-FKh5ARZOODI-unsplash.jpg");
     /* background-color: black; */
     background-size: cover;
+}
+
+.intro-name {
+    background-color: black;
+    border: 3px solid magenta;
+}
+
+.header {
+    background-color: black;
 }
