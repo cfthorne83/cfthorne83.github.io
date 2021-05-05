@@ -61,7 +61,16 @@ body {
     /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cf9.jpg") fixed; */
     /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed; */
     /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfd.jpg") fixed; */
-    background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2d00.jpg") fixed;
+    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2d00.jpg") fixed; */
+    /* background: url("/assets/b&w/88326228-black-and-white-geometric-memphis-pattern-with-wavy-lines-and-dots-80s-and-90s-graphic-design-style-.jpeg") fixed; */
+    /* background: url("/assets/b&w/IMG_5290.png") fixed; */
+    /* background: url("/assets/b&w/IMG_5291.jpg") fixed; */
+    /* background: url("/assets/b&w/IMG_5293.jpg") fixed; */
+    /* background: url("/assets/b&w/IMG_5297.jpg") fixed; */
+    /* background: url("/assets/b&w/IMG_5298.jpg") fixed; */
+    /* background: url("/assets/b&w/IMG_5299.png") fixed; */
+    /* background: url("/assets/b&w/IMG_5300.jpg") fixed; */
+    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed; */
 
     /* background-size: contain; */
     /* background-size: cover;  */
@@ -86,7 +95,7 @@ body {
 }
 
 .intro-name {
-    background-color: orange;
+    background-color: black;
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
