@@ -53,10 +53,11 @@ body {
     background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed;
     background: url("/assets/b&w/500_F_364762268_QUJiC2Cy9sRyoK9LxC96gKwl8AkL8oFO.jpeg") fixed;
     background: url("/assets/b&w/IMG_5268.jpg") fixed;
+    background: url("/assets/b&w/AdobeStock_364762268.svg") fixed;
 
     /* background-size: contain; */
     /* background-size: cover;  */
-    background-size: 10%; 
+    background-size: 60%; 
     /* background-color: black; */
     color:  white;
 }
