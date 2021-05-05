@@ -50,28 +50,7 @@ body {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
     filter: grayscale(100%); */
 
-    /* background: url("/assets/b&w/IMG_5268.jpg") fixed; */
-    /* background: url("/assets/b&w/IMG_5275.png") fixed; */
-    /* background: url("/assets/b&w/IMG_5275.png") fixed; */
-    /* background: url("/assets/new/optical2.jpg") fixed; */
-    /* background: url("/assets/b&w/optical4.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2cfa.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2cff.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2d01.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cf9.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfd.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2d00.jpg") fixed; */
-    /* background: url("/assets/b&w/88326228-black-and-white-geometric-memphis-pattern-with-wavy-lines-and-dots-80s-and-90s-graphic-design-style-.jpeg") fixed; */
-    /* background: url("/assets/b&w/IMG_5290.png") fixed; */
-    /* background: url("/assets/b&w/IMG_5291.jpg") fixed; */
-    /* background: url("/assets/b&w/IMG_5293.jpg") fixed; */
-    /* background: url("/assets/b&w/IMG_5297.jpg") fixed; */
-    /* background: url("/assets/b&w/IMG_5298.jpg") fixed; */
-    /* background: url("/assets/b&w/IMG_5299.png") fixed; */
-    /* background: url("/assets/b&w/IMG_5300.jpg") fixed; */
-    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed; */
-    background: url("/assets/b&w/IMG_5304 2.jpg") fixed;
+    background: url("/assets/b&w/500_F_364762268_QUJiC2Cy9sRyoK9LxC96gKwl8AkL8oFO.jpeg") fixed;
 
     /* background-size: contain; */
     /* background-size: cover;  */
@@ -96,7 +75,7 @@ body {
 }
 
 .intro-name {
-    background-color: black;
+    background-color: rgb(0, 218, 218);
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
