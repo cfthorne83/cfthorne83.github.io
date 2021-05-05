@@ -48,9 +48,11 @@ body {
 
 .intro {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
-    background: url("/assets/b&w/grooveland-designs-Novmz_Z863M-unsplash.jpg") fixed;
+    /* background: url("/assets/b&w/IMG_5268.jpg") fixed; */
+    /* background: url("/assets/b&w/IMG_5275.png") fixed; */
+    background: url("/assets/b&w/IMG_5275.png") fixed;
     /* background-size: contain; */
-    background-size: cover; 
+    /* background-size: cover;  */
     /* background-size: 25%;  */
     /* background-color: black; */
     color:  white;
@@ -66,7 +68,7 @@ body {
 }
 
 #skills {
-    background: url("/assets/favs/nick-fewings-FKh5ARZOODI-unsplash.jpg");
+    background: url("/assets/b&w/daryan-shamkhali-_v2aoMh8xf0-unsplash.jpg");
     /* background-color: black; */
     background-size: cover;
 }
@@ -76,8 +78,8 @@ body {
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
-    /* border: 3px solid white; */
-    /* color: magenta; */
+    border: 3px solid white;
+    /* color: chartreuse; */
 }
 
 .header {
