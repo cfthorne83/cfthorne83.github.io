@@ -47,13 +47,22 @@ body {
 } */
 
 .intro {
-    /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed; */
+    /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
+    filter: grayscale(100%); */
+
     /* background: url("/assets/b&w/IMG_5268.jpg") fixed; */
     /* background: url("/assets/b&w/IMG_5275.png") fixed; */
-    background: url("/assets/b&w/IMG_5275.png") fixed;
+    /* background: url("/assets/b&w/IMG_5275.png") fixed; */
+    /* background: url("/assets/new/optical2.jpg") fixed; */
+    /* background: url("/assets/b&w/optical4.jpg") fixed; */
+    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2cfa.jpg") fixed; */
+    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2cff.jpg") fixed; */
+    /* background: url("/assets/b&w/UNADJUSTEDNONRAW_mini_2d01.jpg") fixed; */
+    background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cf9.jpg") fixed;
+
     /* background-size: contain; */
     /* background-size: cover;  */
-    /* background-size: 25%;  */
+    /* background-size: 50%;  */
     /* background-color: black; */
     color:  white;
 }
@@ -74,15 +83,15 @@ body {
 }
 
 .intro-name {
-    background-color: black;
+    background-color: orange;
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
-    border: 3px solid white;
-    /* color: chartreuse; */
+    border: 2px solid white;
+    /* color: black; */
+    font-weight: 900;
 }
 
 .header {
     background-color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
