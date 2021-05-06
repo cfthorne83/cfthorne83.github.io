@@ -123,7 +123,7 @@ body {
 }
 
 #about {
-    background: url("/assets/240_F_195067515_ZWvaHrBC0Uo43gLSWwaDca8H2MKBoLzE.jpeg") fixed;
+    background: url("/assets/optical (2).svg") fixed;
     
     background-size: 25%;
     /* background-size: cover; */
@@ -131,9 +131,10 @@ body {
 }
 
 .about-con {
-    background: rgba(105, 105, 105, 0.979);
+    background: rgba(105, 105, 105, 0.897);
     font-family: Menlo;
     color: white;
+    border-radius: 1.5rem;
 }
 
 .about-me {
