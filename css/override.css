@@ -1,5 +1,5 @@
 :root {
-    --chartreuse: #ccff00;
+    --font: Menlo;
 
 }
 
@@ -149,14 +149,14 @@ body {
     /* font-weight: 100; */
     background-color: rgb(255, 255, 255);
     padding: 0 2rem;
-    color: rgb(255, 0, 0);
+    color: red;
 }
 
 .title {
     background-color: rgb(255, 255, 255);
     /* text-decoration: underline; */
     padding: .5rem 2rem;
-    color: rgb(251, 57, 57);
+    color: red;
     width: 100%;
 }
 
@@ -167,4 +167,17 @@ body {
 
 .img {
     width: 100px;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+
+.page-scroll {
+    font-family: Menlo;
+}
+
+.page-scroll:hover {
+    color: red;
 }
