@@ -60,11 +60,12 @@ body {
     background-size: 12%; 
     /* background-color: black; */
     color:  rgb(0, 0, 0);
-    border: 40px solid white;
+    border: 60px solid white;
+
 }
 
 .intro-inner {
-    /* background: url("/assets/daniel-olah-pCcGpVsOHoo-unsplash.jpg") no-repeat center fixed; */
+    background: url("/assets/speckling-flowers.jpg") no-repeat center fixed;
 }
 
 #about {
@@ -87,6 +88,7 @@ body {
     /* color: black; */
     /* font-weight: 900; */
     font-family: Menlo;
+    /* background-color: white; */
 }
 
 .header {
@@ -110,12 +112,11 @@ body {
 
 .outer-name{
     /* border: 13px double rgb(255, 255, 255); */
-    background-color: rgba(255, 255, 255, 0.746);
+    /* background-color: rgba(255, 255, 255, 0.746); */
     /* border: 3px solid white; */
-    font-family: Menlo;
-    color: rgb(0, 0, 0);
+    /* font-family: Menlo; */
+    /* color: rgb(0, 0, 0); */
     /* padding: .5rem; */
-    font-weight: 900;
 }
 
 /* .name {
