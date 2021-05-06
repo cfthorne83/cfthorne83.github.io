@@ -643,7 +643,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	height: 100%;
 	padding: 0;
-	text-align: left;
+	/* text-align: left; */
 	color: #fff;
 }
 .intro H1 {
@@ -655,7 +655,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 }
 .intro .intro-text {
-	max-width: 75%;
+	/* max-width: 75%; */
+	/* background-color: teal; */
 }
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;

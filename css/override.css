@@ -61,7 +61,6 @@ body {
     /* background-color: black; */
     color:  rgb(0, 0, 0);
     border: 60px solid white;
-
 }
 
 .intro-inner {
@@ -119,7 +118,8 @@ body {
     /* padding: .5rem; */
 }
 
-/* .name {
+.name {
     font-weight: 100;
-
-} */
+    background-color: white;
+    padding: 0 5rem;
+}
