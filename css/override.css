@@ -146,7 +146,7 @@ body {
 
 .portfolio-items {
     /* background-color: green; */
-    margin: 0 1rem;
+    margin: 2rem 1rem;
 }
 
 #contact {
@@ -163,5 +163,6 @@ body {
     color: white
 }
 
-.devicon {
+.port-img {
+    width: 100%;
 }
