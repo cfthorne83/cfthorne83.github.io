@@ -113,21 +113,28 @@ body {
 }
 
 .header-btn {
-    background: black;
+    background: rgb(255, 0, 0);
     background-size: contain;
-    border: 10px double rgb(255, 255, 255);
+    /* border: 10px double rgb(255, 255, 255); */
     color: rgb(255, 255, 255);
     font-family: Menlo;
     font-weight: 600;
-    margin-top: 1rem;
+    margin: 2rem 2rem 2rem 0;
+    /* text-decoration: underline; */
     /* width: auto; */
+    border: 2px solid white;
+}
+
+.header-btn:hover {
+    background-color: rgb(161, 0, 0);
+    border: 2px solid white;
 }
 
 
-.inner-btn {
+/* .inner-btn {
     background-color: black;
     padding: .5rem;
-}
+} */
 
 .outer-name{
     /* border: 13px double rgb(255, 255, 255); */
