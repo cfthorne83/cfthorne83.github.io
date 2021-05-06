@@ -108,7 +108,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     /* background: url(/assets/barcode.jpg); */
     /* background-size: 20%; */
 }
@@ -123,7 +123,18 @@ body {
     font-weight: 600;
 }
 
-.img-responsive {
+.me {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.about-con {
+    background: rgb(80, 80, 80);
+    font-family: Menlo;
+    color: white;
+}
+
+.about-me {
+    color: rgb(24, 24, 24);
+    font-weight: 600;
 }
