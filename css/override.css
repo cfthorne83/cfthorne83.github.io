@@ -96,7 +96,9 @@ body {
 .page-scroll {
     background-color: rgb(0, 0, 0);
     border: 15px double rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Menlo;
+    font-weight: 600;
     /* width: auto; */
 }
 
@@ -106,9 +108,16 @@ body {
     padding: .5rem;
 }
 
-.outer-name {
-    border: 13px double rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    width: auto;
+.outer-name, .title {
+    border: 13px double rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: Menlo;
+    color: white;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.name {
+    font-weight: 100;
+
 }
