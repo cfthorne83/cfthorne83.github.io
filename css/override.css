@@ -94,9 +94,9 @@ body {
 }
 
 .page-scroll {
-    background-color: white;
-    border: 15px double black;
-    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 15px double rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* width: auto; */
 }
 
