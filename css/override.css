@@ -1,6 +1,6 @@
 :root {
     --font: Menlo;
-
+    --chartruese: red;
 }
 
 body {
@@ -176,8 +176,4 @@ body {
 
 .page-scroll {
     font-family: Menlo;
-}
-
-.page-scroll:hover {
-    color: red;
 }
