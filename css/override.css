@@ -73,6 +73,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 0 2rem;
     color: red;
+    letter-spacing: .01em;
 }
 
 .title {
@@ -148,6 +149,12 @@ body {
     margin: 0 1rem;
 }
 
-.section-title {
-    background-color: green;
+#contact {
+    background-color: rgb(228, 19, 19);
+}
+
+#footer {
+    background: url("/assets/barcode.jpg");
+    background-size: 100px;
+    color: black;
 }
