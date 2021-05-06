@@ -58,7 +58,7 @@ body {
     /* filter: invert(100%); */
     /* background-size: contain; */
     /* background-size: cover;  */
-    background-size: 12%; 
+    background-size: 15%; 
     /* background-color: black; */
     color:  rgb(255, 255, 255);
     border: 60px solid white;
@@ -139,4 +139,9 @@ body {
 
 .title {
     text-decoration: underline;
+}
+
+.header-con {
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 100%;
 }
