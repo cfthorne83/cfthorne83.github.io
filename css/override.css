@@ -1,6 +1,6 @@
 :root {
     --font: Menlo;
-    --chartruese: red;
+    --chartreuse: red;
 }
 
 body {
@@ -59,7 +59,7 @@ body {
     /* filter: invert(100%); */
     /* background-size: cover;  */
     /* background-size: 50%;  */
-    background-size: 15%; 
+    background-size: 200px; 
     /* background-color: black; */
     color:  rgb(255, 255, 255);
     border: 60px solid rgb(255, 255, 255);
@@ -86,7 +86,8 @@ body {
 }
 
 #about {
-    background: url("/assets/favs/IMG_5243.jpg");
+    background: url("/assets/barcode.jpg") fixed;
+    background-size: 300px;
     background-color: black;
 }
 
@@ -171,9 +172,21 @@ body {
 
 .navbar-custom {
     background-color: black;
+    /* background: url(/assets/barcode.jpg); */
+    /* background-size: 20%; */
 }
 
 
 .page-scroll {
     font-family: Menlo;
+}
+
+
+.nav {
+    font-weight: 600;
+}
+
+.img-responsive {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
