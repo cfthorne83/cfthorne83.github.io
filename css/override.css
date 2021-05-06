@@ -49,12 +49,6 @@ body {
     padding-top: 4rem;
 }
 
-#about {
-    background: url("/assets/barcode.jpg") fixed;
-    background-size: 400px;
-    background-color: black;
-}
-
 #skills {
     background: url("/assets/b&w/daryan-shamkhali-_v2aoMh8xf0-unsplash.jpg");
     background-size: cover;
@@ -128,8 +122,16 @@ body {
     filter: grayscale(100%);
 }
 
+#about {
+    background: url("/assets/240_F_195067515_ZWvaHrBC0Uo43gLSWwaDca8H2MKBoLzE.jpeg") fixed;
+    
+    background-size: 25%;
+    /* background-size: cover; */
+    background-color: black;
+}
+
 .about-con {
-    background: rgb(80, 80, 80);
+    background: rgba(105, 105, 105, 0.979);
     font-family: Menlo;
     color: white;
 }
