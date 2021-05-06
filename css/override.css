@@ -49,18 +49,18 @@ body {
 .intro {
     /* background: url("/assets/IMG_5266.jpg") no-repeat center center fixed;
     filter: grayscale(100%); */
-
+/* 
     background: url("/assets/b&w/UNADJUSTEDNONRAW_thumb_2cfc.jpg") fixed;
     background: url("/assets/b&w/500_F_364762268_QUJiC2Cy9sRyoK9LxC96gKwl8AkL8oFO.jpeg") fixed;
     background: url("/assets/b&w/IMG_5268.jpg") fixed;
-    background: url("/assets/b&w/AdobeStock_364762268.svg") fixed;
+    background: url("/assets/b&w/AdobeStock_364762268.svg") fixed; */
     background: url("/img/qr2.svg");
-
     /* background-size: contain; */
     /* background-size: cover;  */
-    background-size: 15%; 
+    background-size: 12%; 
     /* background-color: black; */
     color:  rgb(0, 0, 0);
+    border: 40px solid white;
 }
 
 .intro-inner {
@@ -95,7 +95,7 @@ body {
 
 .page-scroll {
     background-color: rgb(0, 0, 0);
-    border: 15px double rgb(255, 255, 255);
+    border: 8px double rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-family: Menlo;
     font-weight: 600;
@@ -111,6 +111,7 @@ body {
 .outer-name{
     /* border: 13px double rgb(255, 255, 255); */
     background-color: rgba(255, 255, 255, 0.746);
+    /* border: 3px solid white; */
     font-family: Menlo;
     color: rgb(0, 0, 0);
     /* padding: .5rem; */
