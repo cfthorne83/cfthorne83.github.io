@@ -55,17 +55,22 @@ body {
     background: url("/assets/b&w/IMG_5268.jpg") fixed;
     background: url("/assets/b&w/AdobeStock_364762268.svg") fixed; */
     background: url("/img/qr2.svg");
+    /* filter: invert(100%); */
     /* background-size: contain; */
     /* background-size: cover;  */
     background-size: 12%; 
     /* background-color: black; */
-    color:  rgb(0, 0, 0);
+    color:  rgb(255, 255, 255);
     border: 60px solid white;
 }
 
 .intro-inner {
-    background: url("/assets/speckling-flowers.jpg") no-repeat center fixed;
+    background-color: white;
+    margin: 0 30%;
+    /* width: 50%; */
 }
+
+.intro-inner .intro
 
 #about {
     background: url("/assets/favs/IMG_5243.jpg");
@@ -118,8 +123,9 @@ body {
     /* padding: .5rem; */
 }
 
-.name {
-    font-weight: 100;
-    background-color: white;
-    padding: 0 5rem;
+.name, .title{
+    /* font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 0 5rem; */
+    color: black;
 }
