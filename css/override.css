@@ -83,7 +83,7 @@ body {
     /* border-radius: .3em; */
     padding: 0 1rem;
     /* margin: 10rem 0; */
-    border: 5px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     /* color: black; */
     font-weight: 900;
 }
@@ -91,3 +91,20 @@ body {
 .header {
     background-color: black;
 }
+
+.page-scroll {
+    background-color: white;
+    border: 9px double black;
+    color: black;
+    /* width: auto; */
+}
+
+/* .outer-btn {
+    border: 4px solid green;
+    width: 100%;
+    height: 100%;
+}
+.inner-btn {
+    border: 3px solid magenta;
+    width: 100%;
+} */
