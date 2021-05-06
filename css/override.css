@@ -67,10 +67,17 @@ body {
 .intro-inner {
     background-color: white;
     margin: 0 30%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* width: 50%; */
 }
 
-.intro-inner .intro
+.intro-inner .intro-inner-inner {
+    margin: 10px 0;
+    border: 2px solid black;
+}
 
 #about {
     background: url("/assets/favs/IMG_5243.jpg");
@@ -124,8 +131,12 @@ body {
 }
 
 .name, .title{
-    /* font-weight: 100;
-    background-color: rgba(0, 0, 0, 0.863);
-    padding: 0 5rem; */
+    /* font-weight: 100; */
+    /* background-color: rgba(0, 0, 0, 0.863); */
+    padding: 0 2rem;
     color: black;
+}
+
+.title {
+    text-decoration: underline;
 }
