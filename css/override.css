@@ -27,8 +27,8 @@ body {
 
 .intro {
     background: url("/img/qr2.svg");
-    /* background: url("/assets/AdobeStock_342511744_Preview.svg"); */
-    background-size: 100%; 
+    /* background: url("/https://as1.ftcdn.net/v2/jpg/03/23/09/38/1000_F_323093848_tC9lLtx3ssVYmCRJLFXrt8eIZfraMuK5.jpg"); */
+    background-size: 200px; 
     color:  rgb(255, 255, 255);
     border: 60px solid rgb(255, 255, 255);
 }
@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
+    opacity: 80%;
 }
 
 
@@ -71,14 +72,14 @@ body {
 
 .name {
     /* font-weight: 100; */
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.863);
     padding: 0 2rem;
     color: red;
     letter-spacing: .01em;
 }
 
 .title {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.876);
     /* text-decoration: underline; */
     padding: .5rem 2rem;
     color: red;
