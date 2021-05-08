@@ -258,8 +258,9 @@ hr {
 	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); 
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); IE6-9 */
-	background: url("/assets/barcode.jpg");
-	background: rgb(194, 194, 194);
+	background: url("/assets/1000_F_57757098_QjW4eXufpdujhmYLJA8XmJ9eGLjDbvvr.jpeg") fixed;
+	background-size: 50%;
+	/* background: rgb(194, 194, 194); */
 	/* background-size: 100px; */
 }
 .categories {

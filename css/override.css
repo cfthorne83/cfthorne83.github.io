@@ -197,3 +197,12 @@ body {
 .app, .web {
     padding-bottom: 3rem;
 }
+
+.porfolio-con {
+    background-color: rgba(218, 218, 218, 0.897);
+    padding: 5rem;
+}
+
+/* #porfolio {
+    background: url("/assets/bliur.jpeg");
+} */
