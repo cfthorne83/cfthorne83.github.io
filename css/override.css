@@ -149,7 +149,8 @@ body {
 
 .portfolio-items {
     /* background-color: green; */
-    margin: 4rem 1rem;
+    margin: 1.5rem 1rem;
+    /* padding-bottom: 5rem; */
     border-bottom: 2px solid rgb(156, 156, 156);
     /* background-color: green; */
 }
@@ -187,4 +188,12 @@ body {
 
 .categories {
     border-bottom: 2px solid rgb(156, 156, 156);
+}
+
+.hover-bg {
+    /* padding-bottom: 2rem; */
+}
+
+.app, .web {
+    padding-bottom: 3rem;
 }
