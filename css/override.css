@@ -149,7 +149,9 @@ body {
 
 .portfolio-items {
     /* background-color: green; */
-    margin: 2rem 1rem;
+    margin: 4rem 1rem;
+    border-bottom: 2px solid rgb(156, 156, 156);
+    /* background-color: green; */
 }
 
 #contact {
@@ -172,4 +174,17 @@ body {
 
 .portfolio-title {
     color: red;
+}
+
+.project-text {
+    /* background-color: green; */
+    padding: 0 5rem;
+}
+
+/* .first-port {
+    border-top: 2px solid rgb(155, 155, 155);
+} */
+
+.categories {
+    border-bottom: 2px solid rgb(156, 156, 156);
 }
