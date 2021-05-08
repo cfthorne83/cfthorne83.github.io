@@ -27,7 +27,8 @@ body {
 
 .intro {
     background: url("/img/qr2.svg");
-    background-size: 200px; 
+    /* background: url("/assets/AdobeStock_342511744_Preview.svg"); */
+    background-size: 100%; 
     color:  rgb(255, 255, 255);
     border: 60px solid rgb(255, 255, 255);
 }
@@ -116,6 +117,7 @@ body {
 
 #about {
     background: url("/assets/optical (2).svg") fixed;
+    /* background: url("/assets/AdobeStock_342511744_Preview.svg"); */
     
     background-size: 25%;
     /* background-size: cover; */
