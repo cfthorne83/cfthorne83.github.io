@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 
 
@@ -168,4 +168,8 @@ body {
 
 .port-img {
     width: 100%;
+}
+
+.portfolio-title {
+    color: red;
 }
