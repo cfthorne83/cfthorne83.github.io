@@ -1,6 +1,8 @@
 :root {
     --font: Menlo;
-    --chartreuse: red;
+    --chartreuse: #ff3c00;
+    /* --red: #ff3c00; */
+    --red: #ff3300;
 }
 
 body {
@@ -30,20 +32,30 @@ body {
     /* background: url("/https://as1.ftcdn.net/v2/jpg/03/23/09/38/1000_F_323093848_tC9lLtx3ssVYmCRJLFXrt8eIZfraMuK5.jpg"); */
     background-size: 175px; 
     color:  rgb(255, 255, 255);
-    /* border: 10px solid white; */
+    /* border: 20px solid rgb(255, 255, 255); */
+    
 }
 
 .intro-inner {
     background: url("/assets/barcode.jpg");
-    background-size: contain;
+    /* background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png"); */
+    background-size: 200px;
     margin: 0 20%;
     /* border: 4px solid white; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
     /* opacity: 80%; */
+    /* border-radius: 9999px; */
+}
+
+.intro-inner-inner {
+    /* background-color: blueviolet; */
+    padding-top: 4rem;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
 }
 
 
@@ -56,7 +68,7 @@ body {
 }
 
 .header-btn {
-    background: rgb(255, 0, 0);
+    background: var(--red);
     background-size: contain;
     color: rgb(255, 255, 255);
     font-family: Menlo;
@@ -72,17 +84,18 @@ body {
 
 .name {
     /* font-weight: 100; */
-    background-color: rgba(255, 255, 255, 0.863);
+    background-color: rgba(238, 238, 238, 0.877);
     padding: 0 2rem;
-    color: red;
+    color: var(--red);
     letter-spacing: .01em;
+    backdrop-filter: blur(100px);
 }
 
 .title {
-    background-color: rgba(255, 255, 255, 0.876);
+    background-color: rgba(238, 238, 238, 0.877);
     /* text-decoration: underline; */
     padding: .5rem 2rem;
-    color: red;
+    color: var(--red);
     width: 100%;
 }
 
@@ -143,12 +156,12 @@ body {
 #skills {
     background:rgb(46, 46, 46);
     font-family: Menlo;
-    color: red;
+    color: var(--red);
 }
 
 #skills-hr {
-    background-color: red;
-    color: red;
+    background-color: var(--red);
+    color: var(--red);
 }
 
 .portfolio-items {
@@ -160,7 +173,7 @@ body {
 }
 
 #contact {
-    background-color: rgb(228, 19, 19);
+    background-color: var(--red);
 }
 
 #footer {
@@ -178,7 +191,7 @@ body {
 }
 
 .portfolio-title {
-    color: red;
+    color: var(--red);
 }
 
 .project-text {
@@ -223,3 +236,14 @@ body {
     border: 3px solid rgb(185, 185, 185);
     border-radius: 1rem;
 }
+
+.intro-screen {
+    background-color: rgba(112, 112, 112, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.2px);
+}
+
