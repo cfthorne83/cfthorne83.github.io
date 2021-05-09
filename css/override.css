@@ -3,6 +3,7 @@
     --chartreuse: #ff3c00;
     /* --red: #ff3c00; */
     --red: #ff3300;
+    --dk-red: #d32a00;
     --lt-grey: rgb(218, 218, 218);
     --black: rgb(46, 46, 46);
     --dk-grey: rgb(82, 82, 82);
@@ -160,7 +161,7 @@ body {
     background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png") fixed;
 	background-size: 80px;
     font-family: Menlo;
-    color: var(--red);
+    color: var(--dk-red);
 }
 
 #skills-hr {
@@ -252,7 +253,9 @@ body {
 }
 
 .skills-con {
-    background-color: rgba(228, 228, 228, 0.945);
+    background-color: rgba(37, 37, 37, 0.87);
+    padding: 20px 0;
+    /* backdrop-filter: blur(10px); */
 }
 .skills-con-con {
     padding: 100px 0;

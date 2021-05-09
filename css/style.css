@@ -208,10 +208,10 @@ hr {
 	/* background: var(--chartreuse, #CEFF1A); */
 }
 #skills h2 {
-	color: var(--black);
+	color: white;
 }
 #skills hr {
-	background: rgba(255,255,255,0.3);
+	background: grey;
 }
 #skills .skill {
 	margin-bottom: 40px;
@@ -220,7 +220,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
-	color: var(--dk-grey);
+	color: var(--lt-grey);
 }
 .chart {
 	position: relative;
