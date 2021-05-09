@@ -204,8 +204,8 @@ hr {
 }
 /* Skills Section */
 #skills {
-	padding: 100px 0;
-	background: var(--chartreuse, #CEFF1A);
+	/* padding: 100px 0; */
+	/* background: var(--chartreuse, #CEFF1A); */
 }
 #skills h2 {
 	color: #fff;
