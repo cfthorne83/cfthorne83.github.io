@@ -673,8 +673,16 @@ section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	/* padding-top: 300px;
+	padding-bottom: 200px; */
+}
+
+.intro {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .timeline:before {
 	left: 50%;
