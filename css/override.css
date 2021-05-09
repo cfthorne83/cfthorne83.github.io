@@ -3,7 +3,7 @@
     --chartreuse: #ff5e00;
     /* --red: #ff3c00; */
     --red: #ff5e00;
-    --dk-red: #c84900;
+    --dk-red: #a83e00;
     --lt-grey: rgb(209, 209, 209);
     --black: rgb(46, 46, 46);
     --dk-grey: rgb(82, 82, 82);
@@ -83,7 +83,7 @@ body {
 }
 
 .header-btn:hover {
-    background-color: rgb(161, 0, 0);
+    background-color: var(--dk-red);
     border: 2px solid white;
 }
 
@@ -159,8 +159,9 @@ body {
 }
 
 #skills {
-    background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png") fixed;
-	background-size: 80px;
+    /* background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png") fixed; */
+    background-color: var(--black);
+	/* background-size: 80px; */
     font-family: Menlo;
     color: var(--dk-red);
 }
@@ -235,9 +236,9 @@ body {
 .port-con-con {
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(4px);
     padding: 100px 0;
-    background-color: rgba(128, 128, 128, 0.507);
+    /* background-color: rgba(128, 128, 128, 0.507); */
 }
 .port-img {
     border: 2px solid rgb(172, 172, 172);
@@ -255,8 +256,8 @@ body {
 }
 
 .skills-con {
-    background-color: rgba(37, 37, 37, 0.952);
-    padding: 20px 0;
+    /* background-color: rgba(37, 37, 37, 0.952);
+    padding: 20px 0; */
     /* backdrop-filter: blur(10px); */
 }
 .skills-con-con {
