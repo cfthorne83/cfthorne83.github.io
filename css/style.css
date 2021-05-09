@@ -208,7 +208,7 @@ hr {
 	/* background: var(--chartreuse, #CEFF1A); */
 }
 #skills h2 {
-	color: #fff;
+	color: var(--black);
 }
 #skills hr {
 	background: rgba(255,255,255,0.3);
@@ -220,7 +220,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
-	color: rgb(255, 255, 255);
+	color: var(--dk-grey);
 }
 .chart {
 	position: relative;
@@ -258,7 +258,7 @@ hr {
 	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); 
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); IE6-9 */
-	background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png") fixed;
+	background: url("/assets/barcode.jpg") fixed;
 	background-size: 80px;
 	/* background: rgb(194, 194, 194); */
 	/* background-size: 100px; */

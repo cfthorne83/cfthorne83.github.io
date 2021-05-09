@@ -3,7 +3,9 @@
     --chartreuse: #ff3c00;
     /* --red: #ff3c00; */
     --red: #ff3300;
-    --lt-grey: rgb(238, 238, 238);1
+    --lt-grey: rgb(218, 218, 218);
+    --black: rgb(46, 46, 46);
+    --dk-grey: rgb(82, 82, 82);
 }
 
 body {
@@ -31,7 +33,7 @@ body {
 .intro {
     background: url("/img/qr2.svg");
     /* background: url("/https://as1.ftcdn.net/v2/jpg/03/23/09/38/1000_F_323093848_tC9lLtx3ssVYmCRJLFXrt8eIZfraMuK5.jpg"); */
-    background-size: 175px; 
+    background-size: 150px; 
     color:  rgb(255, 255, 255);
     /* border: 20px solid rgb(255, 255, 255); */
     
@@ -140,12 +142,12 @@ body {
 }
 
 .about-con {
-    background: rgba(235, 235, 235, 0.822);
+    background: rgba(82, 82, 82, 0.856);
     font-family: Menlo;
     color: white;
 	backdrop-filter: blur(1.5px);
     padding: 5rem;
-    color: black;
+    /* color: black; */
     /* border-radius: 1.5rem; */
 }
 
@@ -231,7 +233,7 @@ body {
 .port-con-con {
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     padding: 80px 0;
 }
 .port-img {
@@ -250,7 +252,7 @@ body {
 }
 
 .skills-con {
-    background-color: rgba(238, 238, 238, 0.945);
+    background-color: rgba(228, 228, 228, 0.945);
 }
 .skills-con-con {
     padding: 100px 0;
