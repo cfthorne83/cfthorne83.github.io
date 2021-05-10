@@ -152,16 +152,16 @@ hr {
 	border-color: #121d1f;
 }
 .btn-primary {
-	color: #fff;
-	background-color: #121d1f;
+	color: white;
+	background-color: var(--red);
 	padding: 10px 20px;
-	border-color: #121d1f;
+	border-color: var(--dk-red);
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: var(--chartreuse, #CEFF1A);
-	border-color: var(--chartreuse, #CEFF1A);
+	background-color: black;
+	border-color: black;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
