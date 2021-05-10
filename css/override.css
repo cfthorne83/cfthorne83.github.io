@@ -177,7 +177,7 @@ body {
     /* background-color: green; */
     margin: 1.5rem 1rem;
     /* padding-bottom: 5rem; */
-    border-bottom: 2px solid rgb(156, 156, 156);
+    border-bottom: 2px solid rgb(88, 88, 88);
     /* background-color: green; */
 }
 
@@ -273,4 +273,12 @@ p {
 
 h3 {
     color: white;
+}
+
+.cyms {
+    color: white;
+}
+
+.port-title-con {
+    border-bottom: 2px solid rgb(88, 88, 88);
 }
