@@ -160,8 +160,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: black;
-	border-color: black;
+	background-color: var(--dk-red);
+	border-color: var(--dk-red);
 }
 .btn-primary i.fa {
 	margin-right: 10px;
