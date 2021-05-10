@@ -57,7 +57,7 @@ body {
 
 .intro-inner-inner {
     /* background-color: blueviolet; */
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(129, 129, 129, 0.39);
 
     padding-top: 4rem;
     width: 100%;
@@ -199,8 +199,8 @@ body {
     width: 100%;
 }
 
-.portfolio-title {
-    color: var(--red);
+.porfolio-title {
+    color: white;
 }
 
 .project-text {
@@ -225,7 +225,7 @@ body {
 }
 
 .porfolio-con {
-    background-color: rgba(224, 224, 224, 0.966);
+    background-color: rgba(29, 29, 29, 0.966);
     padding: 5rem;
 	backdrop-filter: blur(5px);
     
@@ -265,4 +265,12 @@ body {
 .skills-con-con {
     padding: 100px 0;
 	backdrop-filter: blur(2.5px);
+}
+
+p {
+    color: var(--lt-grey);
+}
+
+h3 {
+    color: white;
 }
