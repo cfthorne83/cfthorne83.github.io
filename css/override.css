@@ -162,7 +162,7 @@ body {
 
 #skills {
     /* background: url("/assets/1280px-Checkerboard_Pattern_8x6.svg.png") fixed; */
-    background-color: var(--black);
+    background-color: rgb(59, 59, 59);
 	/* background-size: 80px; */
     font-family: Menlo;
     color: var(--dk-red);
