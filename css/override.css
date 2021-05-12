@@ -282,3 +282,16 @@ h3 {
 .port-title-con {
     border-bottom: 2px solid rgb(88, 88, 88);
 }
+
+.project-link {
+    color: white;
+    /* padding: .5rem; */
+    /* min-width: 500px; */
+}
+
+.project-link:focus {
+    color: white;
+}
+.project-link:hover {
+    color: var(--red);
+}
