@@ -296,19 +296,6 @@ h3 {
     color: var(--red);
 }
 
-/* @media all and (max-width : 992px) {
-    .gradient-love {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: deeppink;
-    }
-
-    .gradient-love > .web {
-        order: 2;
-        background-color: chartreuse;
-    }
-    .gradient-love > .app {
-        order: 1;
-        background-color: green;
-    }
-} */
+.cyms-item .portfolio-item {
+    padding-bottom: 3rem;
+}
