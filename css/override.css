@@ -92,10 +92,9 @@ body {
 .name {
     /* font-weight: 100; */
     background-color: rgba(238, 238, 238, 0.877);
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     color: var(--red);
     letter-spacing: .01em;
-    backdrop-filter: blur(100px);
 }
 
 .title {
