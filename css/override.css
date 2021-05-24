@@ -90,12 +90,30 @@ body {
 }
 
 .name {
-    /* font-weight: 100; */
-    background-color: rgba(238, 238, 238, 0.877);
     /* padding: 0 2rem; */
     color: var(--red);
     letter-spacing: .01em;
+    width: auto;
 }
+.fname, .lname {
+    background-color: rgba(238, 238, 238, 0.877);
+}
+.fname {
+    padding-left: 2rem;
+}
+.lname {
+    padding-right: 2rem;
+}
+@media all and (max-width: 548px) {
+    .fname {
+        padding-right: 2rem;
+    }
+    .lname {
+        padding-left: 2rem;
+    }
+    
+}
+
 
 .title {
     background-color: rgba(238, 238, 238, 0.877);
