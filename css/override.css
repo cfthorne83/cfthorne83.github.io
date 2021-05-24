@@ -296,8 +296,10 @@ h3 {
     color: var(--red);
 }
 
-@media only screen and (max-width : 320px) {
-}
-.gradient-love {
-    background-color: red;
+@media all and (max-width : 992px) {
+    .gradient-love {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: deeppink;
+    }
 }
